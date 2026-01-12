@@ -28,3 +28,20 @@ Built with **Python, Streamlit, Whisper AI, and Scikit-learn**.
 
 ## 📂 Project Structure
 
+AI-Spam-Detection/
+│
+├── app.py                  # Main Streamlit application
+├── models/
+│   ├── text_model.pkl      # Trained ML model for text spam detection
+│   ├── url_model.pkl       # Trained ML model for URL spam detection
+│
+├── utils/
+│   ├── preprocess.py       # Data preprocessing functions
+│   ├── speech_to_text.py   # Converts audio to text using Whisper AI
+│
+├── assets/
+│   ├── logo.png            # Project logo
+│   └── example_audio.wav   # Sample audio files for testing
+│
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
