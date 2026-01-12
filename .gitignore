@@ -1,0 +1,11 @@
+__pycache__/
+.env
+.streamlit/
+nltk_data/
+*.pkl
+*.joblib
+*.wav
+*.mp3
+*.zip
+*.exe
+.DS_Store

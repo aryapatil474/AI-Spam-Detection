@@ -1,0 +1,26 @@
+filename,label,transcript
+spam_1.wav,spam,Congratulations! You have won a free vacation to the Bahamas. Press 1 to claim.
+spam_2.wav,spam,This is a limited time offer for a personal loan with zero interest.
+spam_3.wav,spam,Act now to get your free iPhone. Supplies are limited.
+spam_4.wav,spam,"urgent, your credit card has been suspended. Call us immediately."
+spam_5.wav,spam,You have been selected for a cash prize. Respond now.
+spam_6.wav,spam,Your loan is approved. Contact us to receive your money.
+spam_7.wav,spam,This is a special offer just for you. Don't miss it.
+spam_8.wav,spam,Click the link now to claim your reward.
+spam_9.wav,spam,Your account has been compromised. Where are we now?
+spam_10.wav,spam,Get a new car with zero down payment. Call today.
+spam_11.wav,spam,"exclusive deal, credits co-boost available for a short time."
+spam_12.wav,spam,claim your free gift card by signing up now.
+spam_13.wav,spam,You are the lucky winner of a monthly jackpot.
+ham_1.wav,ham,"Hey, just checking in to see how you are doing."
+ham_2.wav,ham,Don't forget to take your medicine after lunch.
+ham_3.wav,ham,"Mom is calling, she wants to talk to you."
+ham_4.wav,ham,Your appointment is confirmed for 10am tomorrow.
+ham_5.wav,ham,The meeting has been moved to 4pm.
+ham_6.wav,ham,"Dinner is ready, come downstairs."
+ham_7.wav,ham,How was your day at work?
+ham_8.wav,ham,Let's go for a walk in the evening.
+ham_9.wav,ham,"Don't stay up too late, get some rest."
+ham_10.wav,ham,Reminder. Yoga session starts in 30 minutes.
+ham_11.wav,ham,Good morning. Have a great day ahead.
+ham_12.wav,ham,Don't forget to water the plants.
