@@ -1,41 +1,43 @@
-AI Spam Detection System
+# 🛡️ AI Spam Detection System
 
-An AI-powered application that detects spam in text messages, URLs, and voice messages using Machine Learning and Speech Recognition.
-This system helps identify scam calls, fake messages, and malicious links through a simple and interactive web interface.
+An **AI-powered application** that detects **spam in text messages, URLs, and voice messages** using **Machine Learning** and **Speech Recognition**.
+This system helps identify **scam calls**, **fake messages**, and **malicious links** through a **simple and interactive web interface**.
 
-🔍 Overview
+---
+
+## 🔍 Overview
 
 Spam and fraud are becoming increasingly common across emails, messages, links, and phone calls.
-This project leverages Machine Learning to analyze input data and classify it as spam or not.
+This project leverages **Machine Learning** to analyze input data and classify it as **spam** or **not spam**.
 
-For voice inputs, it uses OpenAI Whisper to convert speech to text before classification.
-The web interface is built with Streamlit, making it easy to use for anyone without technical knowledge.
+For **voice inputs**, it uses **OpenAI Whisper** to convert speech to text before classification.
+The web interface is built with **Streamlit**, making it **easy to use for anyone** without technical knowledge.
 
-🚀 Features
+---
 
-Detect spam from text messages
+## 🚀 Features
 
-Detect spam from URLs
+* 📝 **Text Spam Detection** – Identify spam messages instantly
+* 🌐 **URL Spam Detection** – Check links for safety
+* 🎤 **Voice/Audio Spam Detection** – Convert audio to text and detect spam
+* 🤖 **AI-Powered** – Uses trained Machine Learning models
+* ⚡ **Real-Time Predictions** – Interactive web interface
 
-Detect spam from voice/audio files
+---
 
-Powered by trained Machine Learning models
+## 🛠️ Technologies Used
 
-Real-time predictions through a web interface
+* **Python** – Main programming language
+* **Streamlit** – Web-based interactive interface
+* **OpenAI Whisper** – Speech-to-text conversion
+* **Scikit-learn** – Machine Learning models
+* **Pandas & NumPy** – Data processing
 
-🛠️ Technologies Used
+---
 
-Python – Main programming language
+## 📂 Project Structure
 
-Streamlit – Web-based interface
-
-OpenAI Whisper – Speech-to-text conversion
-
-Scikit-learn – Machine Learning models
-
-Pandas & NumPy – Data processing
-
-📂 Project Structure
+```
 AI-Spam-Detection/
 │
 ├── app.py                  # Main Streamlit application
@@ -53,71 +55,94 @@ AI-Spam-Detection/
 │
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+```
 
-💻 Installation & Setup
+---
 
-Clone the repository
+## 💻 Installation & Setup
 
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/aryapatil474/AI-Spam-Detection.git
 cd AI-Spam-Detection
+```
 
+### 2️⃣ Create a virtual environment (optional but recommended)
 
-Create a virtual environment (optional but recommended)
-
+```bash
 python -m venv venv
-source venv/bin/activate   # Linux/macOS
-venv\Scripts\activate      # Windows
+# Linux/macOS
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+```
 
+### 3️⃣ Install dependencies
 
-Install dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
+### 4️⃣ Run the Streamlit app
 
-Run the Streamlit app
-
+```bash
 streamlit run app.py
+```
 
+Open your browser at [http://localhost:8501](http://localhost:8501) to start using the app.
 
-Open the browser at http://localhost:8501 to start using the app.
+---
 
-📝 Usage
+## 📝 Usage
 
-Text Spam Detection: Enter a message and check if it is spam.
+* **Text Spam Detection:** Enter a message and check if it is spam.
+* **URL Spam Detection:** Paste a URL to verify its safety.
+* **Voice Spam Detection:** Upload an audio file; the system will transcribe it and detect spam content.
 
-URL Spam Detection: Paste a URL to verify its safety.
+---
 
-Voice Spam Detection: Upload an audio file; the system will transcribe it and detect spam content.
+## 🔧 Future Improvements
 
-🔧 Future Improvements
+* 📲 Real-time SMS or call monitoring
+* 📊 Expand dataset for better model accuracy
+* 🌐 Integrate multi-language support
+* ☁️ Deploy on cloud platforms like **Heroku** or **AWS**
 
-Add real-time SMS or call monitoring
+---
 
-Expand dataset for better model accuracy
+## 🤝 Contributing
 
-Integrate multi-language support
+**Feel free to contribute!**
+Whether it's improving models, adding new features, fixing bugs, or enhancing the UI – all contributions are welcome.
 
-Deploy on cloud platforms like Heroku or AWS
+**Steps to contribute:**
 
-🤝 Contributing
+1. Fork the repository
+2. Create a new branch
 
-Feel free to contribute to this project!
-Whether it's improving the models, adding new features, fixing bugs, or enhancing the UI – all contributions are welcome.
+```bash
+git checkout -b feature/YourFeature
+```
 
-To contribute:
+3. Make your changes and commit
 
-Fork the repository
+```bash
+git commit -m "Add your feature"
+```
 
-Create a new branch (git checkout -b feature/YourFeature)
+4. Push to your branch
 
-Make your changes and commit (git commit -m "Add your feature")
+```bash
+git push origin feature/YourFeature
+```
 
-Push to your branch (git push origin feature/YourFeature)
+5. Open a Pull Request
 
-Open a Pull Request
+Let's make **spam detection smarter together!** 🚀
 
-Let's make spam detection smarter together! 🚀
+---
 
-📜 License
+## 📜 License
 
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
