@@ -142,7 +142,3 @@ git push origin feature/YourFeature
 Let's make **spam detection smarter together!** 🚀
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
